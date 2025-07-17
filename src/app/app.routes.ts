@@ -5,5 +5,5 @@ import { Animaltest } from './animaltest/animaltest';
 export const routes: Routes = [
   { path: '', component: Homepage },
   { path: 'animaltest', component: Animaltest },
-  { path: '**', redirectTo: '' } // optional fallback to homepage
+  { path: '**', redirectTo: '' }, // optional fallback to homepage
 ];
