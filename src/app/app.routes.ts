@@ -1,7 +1,7 @@
 import { Routes } from '@angular/router';
 import { Homepage } from './homepage/homepage';
 
-const routes: Routes = [
+export const routes: Routes = [
   // your other routes here...
 
   { path: '', component: Homepage },        // root path loads Homepage
