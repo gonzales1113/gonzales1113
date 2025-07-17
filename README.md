@@ -4,10 +4,10 @@
   </a>
 </p>
 
-<h1 align="center">🎪 Step Right Up! 🎪</h1>
+<h1 align="center">I'm Mailee!</h1>
 
 <p align="center">
-  <strong>Hi, I'm currently studying Computer Science 🤹‍♂️</strong><br>
+  <strong>I'm currently studying Computer Science 🤹‍♂️</strong><br>
   <br>
   🎈 This is my <a href="https://github.com/gonzales1113"> GitHub account</a> where I work on my coding projects! <br>
   
