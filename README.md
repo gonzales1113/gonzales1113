@@ -8,7 +8,10 @@
 
 <p align="center">
   <strong>Hi, I'm currently studying Computer Science 🤹‍♂️</strong><br>
-  This is my <a href="https://github.com/gonzales1113">🎈 GitHub account</a> where I showcase my coding acts and digital tricks! 🧵🎠<br>
-  🎯 For the main event, visit my Github Pages site:
+  <br>
+  🎈 This is my <a href="https://github.com/gonzales1113"> GitHub account</a> where I work on my coding projects! <br>
+  
+  <br>
+  🎯 For the main event, visit my Github Pages site:<br>
   <a href="https://gonzales1113.github.io/gonzales1113/">🎪 gonzales1113.github.io 🎪</a>
 </p>
