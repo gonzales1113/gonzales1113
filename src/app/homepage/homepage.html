@@ -1,104 +1,76 @@
-<main>
+<main class="container my-5">
 
-  <div class="container centerScreen my-5">
-
-    <div class="row justify-content-center align-items-center my-5">
-
-        <div class="col-md-6 col-lg-4">
-        
-          <div class="card position-relative text-center">
-
-            <!-- Overlapping image -->
-            <img src="assets/images/jesterIcon.png" class="jester-img" alt="jester" />
-
-
-            <div class="card-header bg-danger-subtle">
-              welcome 2 my circus!!11!1!
-            </div>
-
-            <div class="card-body mx-auto">
-              look at me.. i set up a website.. aren't i cool
-            </div>
-
-
-            <div class="card-overlay-text text-nowrap">
-              <h5><ins>I LOVE MY BOYFRIEND FIKA!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</ins></h5>
-            </div>
-
-          </div>
-
-
-        </div> <!-- col ending here -->
-
-      </div>
-
-      <div class="container d-flex text-center justify-content-center gap-3">
-
-      <div class="card">
-
-        <div class="card-header bg-primary-subtle">
-          <h4 class="text-black my-2">⍟ portfolio projects</h4></div>
+  <!-- Top card section -->
+  <div class="row justify-content-center my-5">
+    <div class="col-12 col-md-8 col-lg-6">
+      <div class="card text-center position-relative">
+        <!-- Overlapping image -->
+        <img src="assets/images/jesterIcon.png" class="jester-img img-fluid mx-auto d-block" alt="jester" />
+        <div class="card-header bg-danger-subtle">
+          welcome 2 my circus!!11!1!
+        </div>
         <div class="card-body">
+          look at me.. i set up a website.. aren't i cool
+        </div>
+        <div class="card-overlay-text text-nowrap">
+          <h5><ins>I LUV FIKA!!!!!!!</ins></h5>
+        </div>
+      </div>
+    </div>
+  </div>
 
-
-          <ol class="list-group list-group-flush"> <!-- list group begin - ORDER MATTERS !!!!!! -->
-
+  <!-- Portfolio + Fun Projects section -->
+  <div class="row g-4 justify-content-center">
+    <!-- Portfolio Card -->
+    <div class="col-12 col-md-6">
+      <div class="card h-100">
+        <div class="card-header bg-primary-subtle">
+          <h4 class="text-black my-2">⍟ portfolio projects</h4>
+        </div>
+        <div class="card-body">
+          <ol class="list-group list-group-flush">
             <li class="list-group-item">
-
-              <div class="me-auto">
-                <div class="fw-bold"><a href="https://github.com/gonzales1113/32-bit-to-LEGv8">32-bit-to-LEGv8</a></div>
+              <div>
+                <div class="fw-bold">
+                  <a href="https://github.com/gonzales1113/32-bit-to-LEGv8" target="_blank">32-bit-to-LEGv8</a>
+                </div>
                 <p><small>translator program to interpret 32-bit commands to LEGv8 assembly commands<br>(C)</small></p>
               </div>
-
-            </li> <!-- ITEM 1 ENDS -->
-
+            </li>
             <li class="list-group-item">
-
-              <div class="me-auto">
-                <div class="fw-bold"><a href="https://github.com/mangosidekick/ArtSpark">ArtSpark</a></div>
-                <p><small>android application for artists to create moodboards<br>(java, XML)</small></p>
+              <div>
+                <div class="fw-bold">
+                  <a href="https://github.com/mangosidekick/ArtSpark" target="_blank">ArtSpark</a>
+                </div>
+                <p><small>android application for artists to create moodboards<br>(Java, XML)</small></p>
               </div>
-
-            </li> <!-- ITEM 2 ENDS -->
-            
-          </ol> <!--
-           LIST GROUP ENDS - ORDER MATTERS !!!! -->
-
-
+            </li>
+          </ol>
         </div>
       </div>
+    </div>
 
-      <div class="card"> <!-- CARD STARTS -->
-
+    <!-- Fun Projects Card -->
+    <div class="col-12 col-md-6">
+      <div class="card h-100">
         <div class="card-header bg-primary-subtle">
-          <h4 class="text-black my-2">⍟ fun projects</h4></div>
-
-
-        <div class="card-body"> <!-- card body -->
-
-
-
-          <ol class="list-group list-group-flush"> <!-- list group begin - ORDER MATTERS !!!!!! -->
- 
+          <h4 class="text-black my-2">⍟ fun projects</h4>
+        </div>
+        <div class="card-body">
+          <ol class="list-group list-group-flush">
             <li class="list-group-item">
-              <div class="ms-2 me-auto">
-                <div class="fw-bold"><a routerLink="/animaltest">what animal are you?</a></div>
+              <div>
+                <div class="fw-bold">
+                  <a routerLink="/animaltest">what animal are you?</a>
+                </div>
                 <p>personality test (angular, bootstrap, css, and html)</p>
                 <p><small>coming soon!</small></p>
-
               </div>
-            </li> <!-- ITEM 1 ENDS -->
-
-          </ol> <!-- LIST GROUP ENDS - ORDER MATTERS !!!! -->
-
-
-
+            </li>
+          </ol>
         </div>
       </div>
-
-    </div> <!-- END OF ROW -->
-
-  </div> <!-- END OF FIRST CONTAINER-FLUID -->
-
+    </div>
+  </div>
 
 </main>
